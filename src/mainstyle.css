@@ -4,17 +4,30 @@
 	padding: 0;
 }
 
+
 #header
 {
-	background-image: url(output-onlinejpgtools10.png);
+	background-image: url(img/8-halloween-themed.png);
 	height: 82vh;
 	background-size: cover;
 	background-position: center;
 }
+.navbar-brand
+{
+  font-family: algerian;
+}
 .navbar-nav li a
 {
 	float: right;
-	color: #fff;
+	color: black;
+	font-family: algerian;
+}
+.navbar-nav li a:hover
+{
+   font-size: 120%;
+   border-radius: 3px;
+   border-bottom: 3px solid #96BDF1;
+    
 }
 .navbar-brand img
 {
@@ -29,7 +42,7 @@
 }
 nav .fa-bars
 {
-  color: white;
+  color: black;
   font-size: 26px;
 }
 
@@ -112,7 +125,7 @@ nav .fa-bars
 {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(Website+Group.png);
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/Website+Group.png);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -311,7 +324,7 @@ nav .fa-bars
 	font-size: 14px;
 	text-align: left;
 }
-.footer city
+.footer Country
 {
 	margin-left: 37px;
 }
